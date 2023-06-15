@@ -19,8 +19,9 @@ nav{
     z-index: 2;
 }  
 #home_site_nav img{
-    width: 7%;
-    padding: 0.8%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 100px;
 }
 #home_site_nav h2{
     margin-top: 25px;
