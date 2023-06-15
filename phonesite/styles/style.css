@@ -4,6 +4,7 @@
 /* HOME SITE BODY */
 body{
     font-family: system-ui;
+    justify-items: center;
 }
 
 /* HOME SITE HEADERS */
@@ -345,7 +346,6 @@ text-align: center;
     font-style: italic;
     font-size: 1.5rem;
     grid-column: 1/2;
-    float: bottom;
     padding-top: 250px;
 }
 #family{
@@ -357,7 +357,6 @@ text-align: center;
     font-style: italic;
     font-size: 1.5rem;
     grid-column: 2/3;
-    float: bottom;
     padding-top: 400px;
 }
 #friends{
@@ -372,7 +371,6 @@ text-align: center;
     font-style: italic;
     font-size: 1.5rem;
     grid-column: 3/4;
-    float: bottom;
     padding-top: 630px;
 }
 #motto{
@@ -393,7 +391,6 @@ text-align: center;
 /* HOME PAGE FOOTER */
 footer{
     background-color: #264653;
-    color: #E9C46A;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
@@ -407,6 +404,7 @@ footer img:hover{
 }
 footer p {
     font-size: 1.5em;
+    color: #E9C46A;
 }
 footer span{
     color: white;
