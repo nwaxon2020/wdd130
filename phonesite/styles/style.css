@@ -4,6 +4,7 @@
 /* HOME SITE BODY */
 body{
     font-family: system-ui;
+    margin: 0%;
     max-width: 1600px;
 }
 
