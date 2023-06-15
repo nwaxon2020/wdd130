@@ -5,6 +5,7 @@
 body{
     font-family: system-ui;
     justify-items: center;
+    max-width: 1600px;
 }
 
 /* HOME SITE HEADERS */
