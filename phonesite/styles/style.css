@@ -4,7 +4,6 @@
 /* HOME SITE BODY */
 body{
     font-family: system-ui;
-    justify-items: center;
     max-width: 1600px;
 }
 
@@ -46,7 +45,7 @@ nav{
     font-size: larger;
     padding: 35px;
     padding-top: 20px;
-    padding-bottom: 45px;
+    padding-bottom: 38px;
     margin: 5px;
 
 }
