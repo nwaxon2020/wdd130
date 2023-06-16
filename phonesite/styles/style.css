@@ -215,11 +215,12 @@ main span{
     border: 5px solid white;
 }
 #customer_service h3{
+    width: 100%;
     border: none;
     grid-column: 1/2;
     grid-row:2/3;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     margin: 5px;
     justify-self: center
@@ -227,7 +228,6 @@ main span{
 #customer_service .signs{
     grid-column: 1/2;
     grid-row:3/4;
-    margin-top: 15px;
 }
 
 #phone_repar img{
@@ -238,10 +238,11 @@ main span{
     border: 5px solid white;
 }
 #phone_repar h3{
+    width: 100%;
     grid-column: 2/3;
     grid-row:2/3;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     margin: 5px;
     justify-self: center
@@ -249,7 +250,6 @@ main span{
 #phone_repair .signs{
     grid-column: 2/3;
     grid-row:3/4;
-    margin-top: 20px;
 }
 #promo img{
     grid-column: 3/4;
@@ -259,10 +259,11 @@ main span{
     border: 5px solid white;
 }
 #promo h3{
+    width: 100%;
     grid-column: 3/4;
     grid-row:2/3;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     margin: 5px;
     justify-self: center;
@@ -270,7 +271,6 @@ main span{
 #promo .signs{
     grid-column: 3/4;
     grid-row:2/3;
-    margin-top: 15px;
 }
 main #home_site_main2 .signs{
     width: 50px;
@@ -297,10 +297,11 @@ main #home_site_main2 .signs{
 #section2{
     border-left: 1px solid black;
     border-right: 1px solid black;
-    width: 90%;
+    width: 100%;
 }
 #section2 ul{
 text-align: center;
+list-style-type: none;
 }
 #main4{
     margin-top: 100px;
