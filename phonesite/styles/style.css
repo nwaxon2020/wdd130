@@ -218,12 +218,13 @@ main span{
 }
 #home_site_main2 img{
     width: 90%;
-    height: 70%;
+    height: 350px;
 }
 #customer_service img{
     grid-column: 1/2;
     grid-row:1/2;
     border: 5px solid white;
+    border-top: none;
 }
 #customer_service h3{
     width: 100%;
@@ -245,6 +246,7 @@ main span{
     grid-column: 2/3;
     grid-row:1/2;
     border: 5px solid white;
+    border-top: none;
 }
 #phone_repar h3{
     width: 100%;
@@ -264,6 +266,7 @@ main span{
     grid-column: 3/4;
     grid-row:1/2;
     border: 5px solid white;
+    border-top: none;
 }
 #promo h3{
     width: 100%;
