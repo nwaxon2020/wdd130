@@ -1,13 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Righteous&display=swap');
 
-
-
-/* HOME SITE BODY */
 body{
     font-family: system-ui;
     margin: 0%;
     max-width: 1600px;
 }
-
 /* HOME SITE HEADERS */
 nav{
     background-color: #264653;
@@ -143,7 +140,6 @@ main{
 }
 #main1{
     display: grid;
-    grid-template-columns: repeat(1fr 3fr 1fr);
     align-items: center;
     justify-items:center ;
     padding-bottom: 50px;
