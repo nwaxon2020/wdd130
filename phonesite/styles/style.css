@@ -526,12 +526,12 @@ footer .social img {
 #none_border{
     border-right: 2px solid #999;
 }
-.p_section1 h5{
+.p_section1 ul{
     border-bottom-right-radius: 5rem;
     padding: 15px;
     border-top-left-radius: 2rem;
 }
-.p_section1 h2, h5, h6, .h3{
+.p_section1 h2, ul, h6, .h3{
     background-color: #264653;
     padding: 5px;
 }
@@ -573,6 +573,17 @@ footer .social img {
     display: inline;
 
 }
+section ul{
+    background-color: #264653;
+    list-style-type: none;
+}
+#home_site_main3 ul{
+    background-color:white;
+    list-style-type: disc;
+}
+#section2 #no-ul{
+    list-style-type: none;
+}
 
 
 
@@ -580,7 +591,8 @@ footer .social img {
 
 #access_main #h1{
     padding: 30px;
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
+    color: #264653;
 }
 #access_main h4{
     color: #264653;
