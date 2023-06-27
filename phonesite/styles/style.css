@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Righteous&display=swap');
+
+
+/*contact page CSS*/
 #contactus{
     text-align: center;
 }
@@ -53,8 +57,8 @@ textarea{
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Righteous&display=swap');
 
+/*main web-site pages CSS*/
 body{
     font-family: system-ui;
     margin: 0%;
@@ -486,6 +490,11 @@ footer .social img {
     background-color: #2A9D8F;
     border-bottom: 0px;
 }
+#phone_cont4 .phone_count1_sect1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
 .phones section{
     width: 100%;
     color: white;
@@ -502,12 +511,8 @@ footer .social img {
     grid-template-columns: 2fr 1fr;
     padding: 20px;
 }
-#none_border{
-    justify-self:end;
-}
 .phone_count1_sect1 .p_section1{
     width: 90%;
-    height: 80;
     justify-self: start;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -523,7 +528,7 @@ footer .social img {
     grid-row: 1/2;
     align-items: end;
 }
-#none_border{
+#none_border1, #none_border2, #none_border3, #none_border4, #none_border5{
     border-right: 2px solid #999;
 }
 .p_section1 ul{
@@ -584,7 +589,16 @@ section ul{
 #section2 #no-ul{
     list-style-type: none;
 }
-
+#phone_cont3{
+    border-top: 2px solid #999;
+}
+#phone_cont5{
+    border-bottom: 0px;
+    border-top: 2px solid #999;
+}
+#phone_cont5 .phone_count1_sect1, #phone_cont5 .phones{
+    padding-bottom: 50px;
+}
 
 
 /*ACCESORIES CSS*/
