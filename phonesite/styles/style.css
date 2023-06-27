@@ -61,7 +61,7 @@ textarea{
 /*main web-site pages CSS*/
 body{
     font-family: system-ui;
-    margin: 0%;
+    margin: 0 auto;
     max-width: 1600px;
 }
 /* HOME SITE HEADERS */
@@ -578,16 +578,16 @@ footer .social img {
     display: inline;
 
 }
-section ul{
+section ul {
     background-color: #264653;
+    list-style-type: none;
+}
+#home_site_main3 #section2 ul{
     list-style-type: none;
 }
 #home_site_main3 ul{
     background-color:white;
     list-style-type: disc;
-}
-#section2 #no-ul{
-    list-style-type: none;
 }
 #phone_cont3{
     border-top: 2px solid #999;
@@ -760,4 +760,258 @@ section ul{
   border: 5px solid #264653;
   margin: 20px;
   height: 100%;
+}
+
+
+@media (max-width: 1230px) {
+    #top_nav{
+        margin-left: 0%;
+        padding: 5px;
+    }   
+}
+@media (max-width: 1060px) {
+    h2{
+        font-size: 0.5rem;
+        display: inline;
+    }
+    #top_nav a{
+       padding: 20px;
+    }
+}
+@media (max-width: 970px) {
+
+    #home_site_nav h2{
+        font-size: 150%;
+    }
+    footer .social img {
+        padding-top: 10px;
+        margin: 5px;
+        width: 20%;
+    }
+    footer{
+        font-size: 100%;
+    } 
+    #home_site_main3 #section1, #section2, #section3, #motto{
+        font-size: 80%;
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+     }
+     #home_site_footer p{
+        font-size: 100%;
+     }
+}
+@media (max-width: 880px) {
+    #home_site_nav h2{
+        font-size: 120%;
+    }
+    #top_nav a{
+        padding: 10px;
+        font-size: 95%;
+     }S
+     #home_site_nav img{
+        width: 80px;
+     }
+     #home_site_main3 #section1, #section2, #section3, #motto{
+        font-size: 70%;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px;
+     }
+     #home_site_footer p{
+        font-size: 90%;
+     }
+     #home_site_header h1{
+        font-size: 95%;
+        margin: 0 auto;
+        margin-top: 3%;
+        width: fit-content;
+        }
+        #home_site_header h2{
+            padding-top: 8%;
+            margin: 0 auto;
+            font-size: 95%;
+            width: fit-content;
+        }
+        #home_site_header p{
+            margin-top: 10%;
+            font-size: 95%;
+        }
+        #home_site_header a{
+            margin-top: 15%;
+            font-size: 95%;
+            width: fit-content;
+        }
+}
+@media (max-width: 685px) {
+    #home_site_nav h2{
+        font-size: 110%;
+    }
+    #top_nav a{
+        padding: 10px;
+        font-size: 85%;
+     }
+     #home_site_nav img{
+        width: 75px;
+     }
+     #home_site_main3 #section1, #section2, #section3, #motto{
+        font-size: 70%;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px;
+     }
+     #home_site_footer p{
+        font-size: 90%;
+     }
+     #home_site_header h1{
+        font-size: 95%;
+        margin: 0 auto;
+        margin-top: 3%;
+        width: fit-content;
+        }
+        #home_site_header h2{
+            padding-top: 10%;
+            margin: 0 auto;
+            font-size: 95%;
+            width: fit-content;
+        }
+        #home_site_header p{
+            margin-top: 14%;
+            font-size: 90%;
+        }
+        #home_site_header a{
+            margin-top: 40%;
+            font-size: 95%;
+            width: fit-content;
+        }
+}
+@media (max-width: 640px) {
+    nav{
+        margin: 0 auto;
+    }
+    #home_site_nav h2{
+        font-size: 80%;
+    }
+    #top_nav a{
+        padding: 5px;
+        font-size: 75%;
+     }
+     #home_site_nav img{
+        width: 75px;
+     }
+     #home_site_main3 #section1, #section2, #section3, #motto{
+        font-size: 70%;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px;
+     }
+     #home_site_footer p{
+        font-size: 90%;
+     }
+}
+@media (max-width: 535px) {
+    nav{
+        margin: 0 auto;
+        grid-template-columns: 100px 100px 1fr;
+    }
+    #home_site_nav h2{
+        font-size: 55%;
+        align-self: center;
+        justify-self: start;
+    }
+    #top_nav a{
+        padding: 5px;
+        font-size: 55%;
+        align-self: self-start;
+     }
+     #home_site_nav img{
+        width: 55px;
+        display: inline;
+     }
+     #home_site_main3 #section1, #section2, #section3, #motto{
+        font-size: 70%;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px;
+     }
+     #home_site_footer p{
+        font-size: 90%;
+     }
+     #home_site_header h1{
+        font-size: 70%;
+        margin: 0 auto;
+        margin-top: 3%;
+        width: fit-content;
+        }
+        #home_site_header h2{
+            padding-top: 10%;
+            margin: 0 auto;
+            font-size: 70%;
+            width: fit-content;
+        }
+        #home_site_header p{
+            margin-top: 14%;
+            font-size: 70%;
+            width: fit-content;
+        }
+        #home_site_header a{
+            margin-top: 40%;
+            font-size: 75%;
+            width: fit-content;
+        }
+}
+@media (max-width: 450px) {
+    nav{
+        margin: 0 auto;
+        grid-template-columns: 50px 50px 1fr;
+    }
+    #home_site_nav h2{
+        font-size: 50%;
+        align-self: center;
+        justify-self: start;
+    }
+    #top_nav a{
+        padding: 5px;
+        font-size: 50%;
+        align-self: self-start;
+     }
+     #home_site_nav img{
+        width: 40px;
+        display: inline;
+     }
+     #home_site_main3 #section1, #section2, #section3, #motto{
+        font-size: 70%;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px;
+     }
+     #home_site_footer p{
+        font-size: 90%;
+     }
+    #home_site_header h1{
+    font-size: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: fit-content;
+    }
+    #home_site_header h2{
+        padding-top: 10%;
+        margin: 0 auto;
+        font-size: 70%;
+        width: fit-content;
+    }
+    #home_site_header p{
+        margin-top: 14%;
+        font-size: 70%;
+        width: fit-content;
+    }
+    #home_site_header a{
+        margin-top: 40%;
+        font-size: 75%;
+        width: fit-content;
+    }
+    #aboutus{
+        width: 40%;
+    }
+   
 }
