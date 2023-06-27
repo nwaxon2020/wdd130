@@ -800,6 +800,27 @@ section ul {
      #home_site_footer p{
         font-size: 100%;
      }
+     #home_site_header h1{
+        font-size: 125%;
+        margin: 0 auto;
+        margin-top: 3%;
+        width: fit-content;
+        }
+        #home_site_header h2{
+            padding-top: 10%;
+            margin: 0 auto;
+            font-size: 125%;
+            width: fit-content;
+        }
+        #home_site_header p{
+            margin-top: 12%;
+            font-size: 125%;
+        }
+        #home_site_header a{
+            margin-top: 25%;
+            font-size: 95%;
+            width: fit-content;
+        }
 }
 @media (max-width: 880px) {
     #home_site_nav h2{
