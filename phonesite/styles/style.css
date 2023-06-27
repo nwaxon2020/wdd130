@@ -763,12 +763,37 @@ section ul {
 }
 
 
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 @media (max-width: 1230px) {
     #top_nav{
         margin-left: 0%;
         padding: 5px;
-    }   
+    } 
+    #home_site_header h1{
+        font-size: 200%;
+        margin: 0 auto;
+        margin-top: 3%;
+        width: fit-content;
+    }
+    #home_site_header h2{
+        padding-top: 9%;
+        margin: 0 auto;
+        font-size: 200%;
+        width: fit-content;
+    }
+    #home_site_header p{
+        margin-top: 12%;
+        font-size: 150%;
+    }
+    #home_site_header a{
+        margin-top: 20%;
+        font-size: 100%;
+        width: fit-content;
+    }  
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 @media (max-width: 1060px) {
     h2{
         font-size: 0.5rem;
@@ -777,8 +802,31 @@ section ul {
     #top_nav a{
        padding: 20px;
     }
+    #home_site_header h1{
+        font-size: 125%;
+        margin: 0 auto;
+        margin-top: 3%;
+        width: fit-content;
+    }
+    #home_site_header h2{
+        padding-top: 10%;
+        margin: 0 auto;
+        font-size: 125%;
+        width: fit-content;
+    }
+    #home_site_header p{
+        margin-top: 12%;
+        font-size: 125%;
+    }
+    #home_site_header a{
+        margin-top: 25%;
+        font-size: 95%;
+        width: fit-content;
+    }
 }
-@media (max-width: 970px) {
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+@media (max-width: 975px) {
 
     #home_site_nav h2{
         font-size: 150%;
@@ -800,8 +848,12 @@ section ul {
      #home_site_footer p{
         font-size: 100%;
      }
+     #home_site_header{
+        margin-left: 20px;
+        margin-right: 20px;
+     }
      #home_site_header h1{
-        font-size: 125%;
+        font-size: 130%;
         margin: 0 auto;
         margin-top: 3%;
         width: fit-content;
@@ -809,19 +861,81 @@ section ul {
         #home_site_header h2{
             padding-top: 10%;
             margin: 0 auto;
-            font-size: 125%;
+            font-size: 130%;
             width: fit-content;
         }
         #home_site_header p{
             margin-top: 12%;
-            font-size: 125%;
+            font-size: 130%;
         }
         #home_site_header a{
             margin-top: 25%;
-            font-size: 95%;
+            font-size: 100%;
             width: fit-content;
         }
+        #home_site_main1{
+            margin: 0 auto;
+            justify-content: start;
+            justify-items: start;
+            width: 100%;
+            height: 50%;
+            padding: 0px;
+            justify-self: center;
+        }
+        #home_site_main1 #main1{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            width: 100%;
+            height: 30%;
+            padding-bottom: 0px;
+        }
+        #aboutus{
+            width: 80%;
+            height: 100%;
+            grid-column: 1/3;
+            grid-row:1/2;
+            padding-left: 70px;
+        }
+        #aboutus h3{
+            font-size: 150%;
+            margin-top: 5px;
+            padding: 5px;
+        }
+        #home_site_main1 #aboutus_img{
+            width: 80%;
+            grid-row: 2/3;
+            grid-column: 1/3;
+            padding-right: 130px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #home_site_main1 #aboutus p{
+            font-size: 130%;
+            padding-top: 2px;
+            width: 90%;
+            padding-left: 0px;
+        }  
+        main #d-vera p{
+            font-size: 2%;
+            grid-row: 3/4;
+            grid-column: 1/3;
+        }
+        #home_site_main2{
+            width: 95%;
+            margin: 0 auto;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        #home_site_main2 img{
+            width: 95%;
+            height: 50%;  
+        }
+        #home_site_main2 h3{
+            font-size: 60%;
+        }
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 @media (max-width: 880px) {
     #home_site_nav h2{
         font-size: 120%;
@@ -829,7 +943,7 @@ section ul {
     #top_nav a{
         padding: 10px;
         font-size: 95%;
-     }S
+     }
      #home_site_nav img{
         width: 80px;
      }
@@ -843,27 +957,66 @@ section ul {
         font-size: 90%;
      }
      #home_site_header h1{
-        font-size: 95%;
+        font-size: 150%;
         margin: 0 auto;
         margin-top: 3%;
         width: fit-content;
         }
         #home_site_header h2{
-            padding-top: 8%;
+            padding-top: 10%;
             margin: 0 auto;
-            font-size: 95%;
+            font-size: 150%;
             width: fit-content;
         }
         #home_site_header p{
-            margin-top: 10%;
-            font-size: 95%;
+            margin-top: 13%;
+            font-size: 150%;
+            width: fit-content;
+            margin-left: 20px;
+            margin-right: 20px;
         }
         #home_site_header a{
-            margin-top: 15%;
-            font-size: 95%;
+            margin-top: 30%;
+            font-size: 100%;
             width: fit-content;
         }
+        #aboutus{
+            width: 75%;
+            height: 100%;
+            grid-column: 1/3;
+            grid-row:1/2;
+            margin-right: 115px;
+        }
+        #aboutus h3{
+            font-size: 150%;
+            margin-top: 5px;
+            padding: 5px;
+        }
+        #home_site_main1 #aboutus_img{
+            width: 80%;
+            grid-row: 2/3;
+            grid-column: 1/3;
+            padding-right: 110px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 0px;
+        }
+        #home_site_main1 #aboutus p{
+            font-size: 120%;
+            padding-top: 2px;
+            width: 100%;
+            height: fit-content;
+            padding: 5px;
+            text-align: center;
+        }  
+        main #d-vera p{
+            font-size: 2%;
+            grid-row: 3/4;
+            grid-column: 1/3;
+        }
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 @media (max-width: 685px) {
     #home_site_nav h2{
         font-size: 110%;
@@ -906,6 +1059,8 @@ section ul {
             width: fit-content;
         }
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 @media (max-width: 640px) {
     nav{
         margin: 0 auto;
@@ -929,7 +1084,71 @@ section ul {
      #home_site_footer p{
         font-size: 90%;
      }
+     #home_site_main1{
+        margin: 0 auto;
+        justify-content: start;
+        justify-items: start;
+        width: 100%;
+        height: 50%;
+        padding: 0px;
+        justify-self: center;
+    }
+    #home_site_main1 #main1{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 30%;
+        padding-left: 25px;
+        padding-bottom: 0px;
+    }
+    #aboutus{
+        width: 80%;
+        height: 100%;
+        grid-column: 1/3;
+        grid-row:1/2;
+    }
+    #aboutus h3{
+        font-size: 100%;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    #home_site_main1 #aboutus_img{
+        width: 90%;
+        grid-row: 2/3;
+        grid-column: 1/3;
+        padding-right: 38px;
+        margin-top: 0px;
+        gap: 0px;
+    }
+    #home_site_main1 #aboutus p{
+        font-size: 60%;
+        padding-top: 2px;
+        width: 100%;
+        height: fit-content;
+        padding: 5px;
+        text-align: center;
+    }  
+    main #d-vera p{
+        font-size: 2%;
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+    #home_site_main2{
+        width: 95%;
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #home_site_main2 img{
+        width: 95%;
+        height: 50%;  
+    }
+    #home_site_main2 h3{
+        font-size: 60%;
+    }
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 @media (max-width: 535px) {
     nav{
         margin: 0 auto;
@@ -981,6 +1200,8 @@ section ul {
             width: fit-content;
         }
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 @media (max-width: 450px) {
     nav{
         margin: 0 auto;
@@ -1028,11 +1249,186 @@ section ul {
     }
     #home_site_header a{
         margin-top: 40%;
-        font-size: 75%;
+        font-size: 65%;
         width: fit-content;
     }
-    #aboutus{
-        width: 40%;
+    #home_site_main1{
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        height: 50%;
+        padding: 0px;
     }
-   
+    #home_site_main1 #main1{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 30%;
+        padding-left: 25px;
+        padding-bottom: 0px;
+    }
+    #aboutus{
+        width: 60%;
+        height: 100%;
+        grid-column: 1/3;
+        grid-row:1/2;
+    }
+    #aboutus h3{
+        font-size: 100%;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    #home_site_main1 #aboutus_img{
+        width: 90%;
+        grid-row: 2/3;
+        grid-column: 1/3;
+        padding-right: 38px;
+    }
+    #home_site_main1 #aboutus p{
+        font-size: 80%;
+        padding-top: 2px;
+        width: 80%;
+        height: fit-content;
+        padding: 5px;
+        text-align: center;
+    }  
+    main #d-vera p{
+        font-size: 2%;
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+    #home_site_main2{
+        width: 95%;
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #home_site_main2 img{
+        width: 95%;
+        height: 50%;  
+    }
+    #home_site_main2 h3{
+        font-size: 60%;
+    } 
+}
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+@media (max-width: 380px) {
+    nav{
+        margin: 0 auto;
+        grid-template-columns: 50px 50px 1fr;
+    }
+    #home_site_nav h2{
+        font-size: 50%;
+        align-self: center;
+        justify-self: start;
+    }
+    #top_nav a{
+        padding: 5px;
+        font-size: 50%;
+        align-self: self-start;
+     }
+     #home_site_nav img{
+        width: 40px;
+        display: inline;
+     }
+     #home_site_main3 #section1, #section2, #section3, #motto{
+        font-size: 70%;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px;
+     }
+     #home_site_footer p{
+        font-size: 90%;
+     }
+
+     #home_site_header{
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+    #home_site_header h1{
+    font-size: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: fit-content;
+    }
+    #home_site_header h2{
+        padding-top: 12%;
+        margin: 0 auto;
+        font-size: 80%;
+        width: fit-content;
+    }
+    #home_site_header p{
+        margin-top: 15%;
+        font-size: 80%;
+        width: fit-content;
+    }
+    #home_site_header a{
+        margin-top: 50%;
+        margin-bottom: 10px;
+        font-size: 40%;
+        width: fit-content;
+    }
+    #home_site_main1{
+        margin: 0 auto;
+        justify-content: start;
+        justify-items: start;
+        width: 100%;
+        height: 50%;
+        padding: 0px;
+        justify-self: center;
+    }
+    #home_site_main1 #main1{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 30%;
+        padding-left: 25px;
+        padding-bottom: 0px;
+    }
+    #aboutus{
+        width: 60%;
+        height: 100%;
+        grid-column: 1/3;
+        grid-row:1/2;
+    }
+    #aboutus h3{
+        font-size: 100%;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    #home_site_main1 #aboutus_img{
+        width: 90%;
+        grid-row: 2/3;
+        grid-column: 1/3;
+        padding-right: 38px;
+        margin-top: 0px;
+        gap: 0px;
+    }
+    #home_site_main1 #aboutus p{
+        font-size: 60%;
+        padding-top: 2px;
+        width: 80%;
+        height: fit-content;
+        padding: 5px;
+    }  
+    main #d-vera p{
+        font-size: 2%;
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+    #home_site_main2{
+        width: 95%;
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #home_site_main2 img{
+        width: 95%;
+        height: 50%;  
+    }
+    #home_site_main2 h3{
+        font-size: 60%;
+    }
 }
