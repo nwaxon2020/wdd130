@@ -7,14 +7,11 @@
 }
 form{
     width: 600px;
-    margin: 0px;
+    margin: 5rem auto;
     border: 2px solid #264653;
     border-radius: 1rem;
     padding: 1rem;
     color: #E9C46A;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     background-color: #264653;
 
 }
@@ -1530,6 +1527,7 @@ section ul {
     #single-one{
         width: 5%;
         height:5%;
+        display: inline-block;
     }
     #Single{
         width: 5%;
@@ -1538,5 +1536,6 @@ section ul {
     .double1, .double2{
         width: 5%;
         height: 5%;
+       
     }
 }
