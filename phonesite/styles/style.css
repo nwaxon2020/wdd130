@@ -60,6 +60,8 @@ body{
     margin: 0 auto;
     max-width: 1600px;
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /* HOME SITE HEADERS */
 #home_site_nav{
     position: sticky;
@@ -189,6 +191,7 @@ nav{
     background-color: #2A9D8F;
 }
 
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /* HOME SITE MAIN */
 main{
     text-align: center;
@@ -402,6 +405,8 @@ list-style-type: none;
     margin: 0px;
     color: white;
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /* HOME PAGE FOOTER */
 footer{
     background-color: #264653;
@@ -429,7 +434,7 @@ footer .social img {
 }  
 
 
-
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /* PHONE SITE CSS */
 
 .phones{
@@ -457,6 +462,10 @@ footer .social img {
     border-radius: 1rem;
     border: 1px solid #E9C46A;
     text-decoration: none;
+}
+.phones h2{
+    font-family: system-ui, Righteous, Raleway;
+    
 }
 #phone_cont2 a, #phone_cont4 a{
     background-color: #264653;
@@ -565,11 +574,14 @@ footer .social img {
     width: 250px;
 
 }
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /*PHONE SECTION 1*/
 #phone_cont1{
     align-items: self-end;
 }
 
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /*PHONE SECTION 2*/
 #phone_cont2 .p_section2, #phone_cont4 .p_section2{
     background-color: #2A9D8F;
@@ -599,8 +611,7 @@ section ul {
 }
 
 
-
-
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /*ACCESORIES CSS*/
 
 #access_main #h1{
@@ -761,4 +772,3 @@ section ul {
   margin: 20px;
   height: 100%;
 }
-
