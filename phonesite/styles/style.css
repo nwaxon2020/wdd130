@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Righteous&display=swap');
-
 
 /*contact page CSS*/
 #contactus{
@@ -51,9 +49,26 @@ textarea{
     list-style: none;
 }
 
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+/*Contact Script CSS*/
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
 
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Righteous&display=swap');
 
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /*main web-site pages CSS*/
 body{
     font-family: system-ui;
@@ -465,7 +480,7 @@ footer .social img {
 }
 .phones h2{
     font-family: system-ui, Righteous, Raleway;
-    
+
 }
 #phone_cont2 a, #phone_cont4 a{
     background-color: #264653;
