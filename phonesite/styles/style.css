@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+
 /*contact page CSS*/
 #contactus{
     text-align: center;
@@ -65,17 +68,20 @@ textarea{
     margin-top: 3em;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Righteous&display=swap');
-
 /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /*main web-site pages CSS*/
 body{
-    font-family: system-ui;
     margin: 0 auto;
     max-width: 1600px;
+    font-family: system-ui;
+}
+body h1, h2{
+    font-family: Roboto+Condensed;
 }
 
+body p{
+    font-family: Raleway, Helvetica, sans-serif;
+}
 /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /* HOME SITE HEADERS */
 #home_site_nav{
@@ -289,7 +295,6 @@ main span{
     justify-items: center;
     background-color: black;
     padding-bottom: 50px;
-    border-bottom: 2px solid black;
 }
 #home_site_main2 img{
     width: 90%;
