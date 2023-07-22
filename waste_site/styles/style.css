@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.container{
+    width: 1600px;
+    font-family: system-ui;
+}
+
+#nav_picture{
+    height: 8em;
+    background-color: #449281;
+    background-image: url(../waste_site_images/hero_picture.jpeg);
+    background-blend-mode: multiply;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/* HEADER */
+/* header{
+    position: sticky;
+    top: 0px;
+} */
+header .top_nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #22223B;
+    padding: 0.5em;
+}
+.logo a{
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: #22223B;
+    background-color:#F2E9E4;
+    border-radius: 1em;
+    border: 3px solid #fff;
+    text-decoration: none;
+}
+.logo a:hover{
+    text-decoration: none;
+    opacity: 0.8;
+}
+header .top_nav nav{
+    justify-self: end;
+    align-self: center
+}
+header .top_nav ul{
+    display: flex;
+    list-style: none;
+    justify-self: center;
+    align-self: center;
+}
+header .top_nav ul li{
+    padding-left: 9rem;
+}
+header a{
+    text-decoration: none;
+    color: #F2E9E4;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+header a:focus, header a:hover{
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/* MAIN DIV 1 */
+.main_div1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #4A4E69;
+    color: #F2E9E4;
+}
+.image_div{
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+.image_div img{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    width: 100%;
+}
+.image_div #intro{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 3rem;
+    color: #fff;
+    width: 50%;
+    font-size: 1.5em;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    background-color: rgba(30, 27, 27, 0.5);
+}
+.image_pargraph_div{
+    align-self: center;
+    justify-self: center;
+    text-align: justify;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1em;
+    width: 70%;
+}
+.image_pargraph_div img{
+    width: 100%;
+    justify-self: center;
+    margin: 0 auto;
+}
+#book_button{
+    background-color: #F2E9E4;
+    justify-self: center;  
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
+#book_button a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #22223B;
+    color: #F2E9E4;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1em;
+}
+#book_button a:focus, #book_button a:hover{
+    background-color: rgb(15, 123, 87);
+    text-decoration: underline;
+}
+
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/* MAIN DIV 2 */
+.main_div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.main_div2 p{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#p2, #p3{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/* FOOTER */
+footer, ul{
+    display: flex;
+    background-color: #22223B;
+    color: #F2E9E4;
+    font-size: 1.2em;
+    justify-content: space-around;
+}
+footer nav{
+    justify-self: end;
+    align-self: center;
+}
+footer img{
+    border-radius: 50%;
+}
+footer ul{
+    list-style: none;
+    justify-content: space-around;
+}
+footer li{
+    margin-left: 20px;
+}
+footer a:hover, footer a:focus{
+    opacity: 0.6;
+}
+#visit{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+#visit h2, h3{
+    margin: auto 15px;
+}
+#visit h2{
+    color: aqua;
+}
+#visit a{
+    color: aqua;
+}
+
+
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/* MIDEA QUEREY*/
+@media (max-width: 980px){
+
+    .container{
+        width: 100%;
+    }
+
+    /*dddddddddddddddddddddddddddddddddddddd */
+    /* MIDEA Header*/
+    header{
+        position: sticky;
+        top: 0px;
+    }
+    #nav_picture{
+        height: 5em;
+    }
+    .top_nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      header .logo, nav{
+        justify-self: center;
+        margin:  auto;
+      }
+    header .logo a{
+        padding: 5px;
+        font-size: 1rem;
+    }
+    header .top_nav ul li{
+        padding: 0.5em;
+
+    }
+
+    header ul{
+        display: grid;
+        grid-template-columns:  repeat(5, 1fr);
+        padding: 0px;
+    }
+    header ul a{
+        font-size: 0.8rem;
+    }
+
+    /*dddddddddddddddddddddddddddddddddddddd */
+    /* MIDEA main Div 1*/
+    .main_div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image_div{
+        justify-self: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main_div1 img{
+        width: 100%;
+        height: 100%;
+       }
+    .main_div1 .image_div h3, .main_div1 .image_div h1{
+        margin: 0 auto;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .image_pargraph_div img{
+        width: 30%;
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+        }
+    .image_pargraph_div P{
+        font-size: 0.75rem;
+       }
+
+    /*dddddddddddddddddddddddddddddddddddddd */
+    /* MIDEA main Div 2*/
+   .main_div2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+   }
+   #p1, #p2, #p3, #p4{
+    justify-self: center;
+    padding: 5px;
+    margin: 5px;
+   }
+
+    /*dddddddddddddddddddddddddddddddddddddd */
+    /* MIDEA main Footer*/
+   footer{
+        flex-direction: column;
+        font-size: 0.75em;
+        justify-content: center;
+        text-align: center;
+   }
+   footer ul{
+        padding: 0px;
+   }
+   #visit{
+        display: grid;
+   }
+}
